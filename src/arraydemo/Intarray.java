@@ -27,17 +27,6 @@ public class Intarray {
         for (int i = 0; i < n; i++) {
             intArray[i] = scanner.nextInt();
         }
-        System.out.println("Original Integers: " + Arrays.toString(intArray));
-        sortIntegers(intArray);
-
-        // Input for strings
-        System.out.println("\nEnter the number of strings to sort:");
-        int m = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
-        String[] stringArray = new String[m];
-        System.out.println("Enter " + m + " strings:");
-        for (int i = 0; i < m; i++) {
-            stringArray[i] = scanner.nextLine();
         }
         System.out.println("Original Strings: " + Arrays.toString(stringArray));
         sortStrings(stringArray);
